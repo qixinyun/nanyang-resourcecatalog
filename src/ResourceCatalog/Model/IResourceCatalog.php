@@ -34,7 +34,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['SSLJ'] => array(),
         IUserGroup::ID['SGDGS'] => array(),
         IUserGroup::ID['SLYJ'] => array(),
-        IUserGroup::ID['SJTYSJ'] => array(, ),
+        IUserGroup::ID['SJTYSJ'] => array(),
         IUserGroup::ID['SLYFZWYH'] => array(),
         IUserGroup::ID['SFDCGLJ'] => array(),
         IUserGroup::ID['SHJBHJ'] => array(),
