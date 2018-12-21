@@ -8,7 +8,8 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         'HMD' => 1,   
         'XZCF' => 48,
         'XZXK' => 49,
-        'SXBZXRMD' => 51,
+        'SXBZXFRMD' => 50,
+        'SXBZXZRRMD' => 51,
         'TEST' => 500          
     );
 
@@ -19,7 +20,7 @@ interface IResourceCatalog extends IResourceCatalogTypeName, IResourceCatalogTyp
         IUserGroup::ID['SWMB'] => array(),
         IUserGroup::ID['RMYHPXSZXZH'] => array(),
         IUserGroup::ID['SQXJ'] => array(),
-        IUserGroup::ID['SZJRMFY'] => array(self::TYPE['SXBZXRMD']),
+        IUserGroup::ID['SZJRMFY'] => array(self::TYPE['SXBZXRMD'], self::TYPE['SXBZXZRRMD']),
         IUserGroup::ID['SLSJ'] => array(),
         IUserGroup::ID['SGAJ'] => array(),
         IUserGroup::ID['SCZJ'] => array(),

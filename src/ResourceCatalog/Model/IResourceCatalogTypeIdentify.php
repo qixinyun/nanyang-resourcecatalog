@@ -8,7 +8,8 @@ interface IResourceCatalogTypeIdentify
         IResourceCatalog::TYPE['HMD'] => 'HMD',
         IResourceCatalog::TYPE['XZCF'] => 'XZCF',
         IResourceCatalog::TYPE['XZXK'] => 'XZXK',
-        IResourceCatalog::TYPE['SXBZXRMD'] => 'SXBZXRMD',
+        IResourceCatalog::TYPE['SXBZXFRMD'] => 'SXBZXFRMD',
+        IResourceCatalog::TYPE['SXBZXZRRMD'] => 'SXBZXZRRMD',
         IResourceCatalog::TYPE['TEST'] => 'TEST'
     );
 }
